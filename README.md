@@ -1,5 +1,4 @@
 Titanic Survival Intelligence Platform
-
 It's an end-to-end, Machine Learning system that predicts passenger survival during the RMS Titanic disaster using historical data, advanced ML models, interactive dashboards, and real-time streaming.
 
 Project Objective: To develop a robust survival prediction system that:
@@ -39,7 +38,6 @@ Fare	        Ticket fare
 Cabin	        Cabin number
 Embarked	    Port of embarkation
 
-
 Machine Learning Pipeline
 1. Data Cleaning
     a. Missing value handling (Age, Embarked)
@@ -73,6 +71,7 @@ Dashboard Capabilities (Streamlit)
         b. Age range
         c. Gender
         d. Sort passengers by survival probability
+![image alt](https://github.com/DeekshithMP/titanic-survival-prediction/blob/b05d2c8daaef531458e8f710c11f19c116fbeb61/Titanic%20Prediction's%20Flowchart.png)
 
 3. Batch Predictions
     i. View survival predictions for filtered groups
@@ -99,7 +98,6 @@ Real-Time Architecture (Kafka)
     Live Dashboard Updates
 ✔ Handles high-volume data
 ✔ Ready for real-world streaming use cases
-
 
 Installation & Setup
 1. Clone Repository

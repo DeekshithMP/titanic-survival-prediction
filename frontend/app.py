@@ -2,17 +2,16 @@ import sys, os, json, time
 import pandas as pd
 import streamlit as st
 
-try:
-    from kafka import KafkaConsumer
-    KAFKA_AVAILABLE = True
-except:
-    KAFKA_AVAILABLE = False
-
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if ROOT not in sys.path:
     sys.path.append(ROOT)
 
 from backend.predictor import SurvivalPredictor
+try:
+    from kafka import KafkaConsumer
+    KAFKA_AVAILABLE = True
+except:
+    KAFKA_AVAILABLE = False
 
 st.set_page_config(
     page_title="Dashboard | Titanic Survival",

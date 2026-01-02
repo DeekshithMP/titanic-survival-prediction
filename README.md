@@ -60,16 +60,6 @@ Machine Learning Pipeline
     c. Confusion Matrix
     d. ROC-AUC Curve
 
-4️⃣ Evaluation Metrics
-
-Accuracy
-
-Precision / Recall / F1-Score
-
-Confusion Matrix
-
-ROC-AUC Curve
-
 Dashboard Capabilities (Streamlit)
 1. KPI Indicators
     i. Total passengers
@@ -113,7 +103,7 @@ Real-Time Architecture (Kafka)
 
 Installation & Setup
 1. Clone Repository
-    git clone https://github.com/your-username/titanic-survival-prediction.git
+    git clone https://github.com/DeekshithMP/titanic-survival-prediction.git
     cd titanic-survival-prediction
 
 2. Create Environment

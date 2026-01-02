@@ -38,6 +38,8 @@ Fare	        Ticket fare
 Cabin	        Cabin number
 Embarked	    Port of embarkation
 
+![image alt](https://github.com/DeekshithMP/titanic-survival-prediction/blob/b05d2c8daaef531458e8f710c11f19c116fbeb61/Titanic%20Prediction's%20Flowchart.png)
+
 Machine Learning Pipeline
 1. Data Cleaning
     a. Missing value handling (Age, Embarked)
@@ -64,15 +66,12 @@ Dashboard Capabilities (Streamlit)
     ii. Average survival probability
     iii. High-risk passenger count
     iv. Model ROC-AUC score
-
 2. Filtering & Sorting
     i.Filter predictions by:
         a. Passenger class
         b. Age range
         c. Gender
         d. Sort passengers by survival probability
-![image alt](https://github.com/DeekshithMP/titanic-survival-prediction/blob/b05d2c8daaef531458e8f710c11f19c116fbeb61/Titanic%20Prediction's%20Flowchart.png)
-
 3. Batch Predictions
     i. View survival predictions for filtered groups
     ii. Risk scores computed dynamically

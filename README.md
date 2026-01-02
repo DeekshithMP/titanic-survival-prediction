@@ -120,4 +120,4 @@ Installation & Setup
     python kafka_pipeline/producer.py
 
 URL of Web Application: 
-
+https://titanic1912-survival-prediction.streamlit.app/
